@@ -1,16 +1,39 @@
-# React + Vite
+# LiftList — Workout Exercise Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Author
+Sidney Wright
 
-Currently, two official plugins are available:
+## Overview
+LiftList is a React web app for planning and tracking workout sessions.
+Browse a library of 30+ exercises, build a custom workout list,
+customize sets and reps, and check off exercises as you complete them.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to Use
+- Click the Library tab to browse exercises by muscle group
+- Use the search bar to find exercises by name
+- Click any exercise card to add it to your workout
+- Switch to the Workout tab to see your list
+- Click the sets/reps numbers to edit them
+- Check the checkbox when you finish an exercise
+- Click the X button to remove an exercise
 
-## React Compiler
+## Technologies Used
+- React 18
+- useReducer (Redux-style state management)
+- Vite
+- CSS-in-JS
+- Google Fonts (Bebas Neue, DM Sans)
+- gh-pages
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Ideas for Future Improvement
+1. Save workouts to localStorage so they persist after closing the browser
+2. Add a rest timer that counts down between sets
+3. Allow users to create and save named workout templates like Push Day or Leg Day
+4. Add drag and drop to reorder exercises in the workout list
+5. Add exercise demonstration GIFs for each movement
 
-## Expanding the ESLint configuration
+## Live App
+https://sidneywright7.github.io/lift-app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GitHub Repository
+https://github.com/sidneywright7/lift-app
