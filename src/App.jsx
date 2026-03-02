@@ -133,6 +133,7 @@ function reducer(state, action) {
 // ─────────────────────────────────────────────
 //  STYLES (injected into <head>)
 // ─────────────────────────────────────────────
+// Global styles — injected into the document head on mount
 const CSS = `
   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap');
 
