@@ -68,7 +68,7 @@ const initialState = {
   editingId: null,
   nextWorkoutItemId: 1,
 };
-
+// Redux-style reducer — handles all state changes
 function reducer(state, action) {
   switch (action.type) {
     case "ADD_EXERCISE": {
