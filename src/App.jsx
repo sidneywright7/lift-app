@@ -1,3 +1,6 @@
+// LiftList - Workout Exercise Manager
+// Author: Sidney Wright
+// Description: React todo app for managing workout exercises
 import { useState, useReducer, useEffect } from "react";
 
 // ─────────────────────────────────────────────
