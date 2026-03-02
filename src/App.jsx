@@ -999,6 +999,7 @@ function WorkoutView({ state, dispatch }) {
 // ─────────────────────────────────────────────
 //  APP (CONTAINER)
 // ─────────────────────────────────────────────
+// App — root container component, owns all state via useReducer
 export default function App() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
