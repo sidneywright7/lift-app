@@ -47,7 +47,7 @@ const EXERCISE_LIBRARY = [
 ];
 
 const MUSCLE_GROUPS = ["all", "chest", "back", "legs", "shoulders", "arms", "core"];
-
+// Color map for each muscle group — used in filter chips and cards
 const MUSCLE_COLORS = {
   chest: "#FF6B6B",
   back: "#4ECDC4",
