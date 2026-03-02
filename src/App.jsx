@@ -6,6 +6,7 @@ import { useState, useReducer, useEffect } from "react";
 // ─────────────────────────────────────────────
 //  DATA
 // ─────────────────────────────────────────────
+// Exercise library — 30 movements across 6 muscle groups
 const EXERCISE_LIBRARY = [
   // Chest
   { id: 1, name: "Bench Press", category: "Strength", muscleGroup: "chest", emoji: "🏋️" },
