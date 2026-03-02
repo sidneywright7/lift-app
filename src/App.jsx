@@ -697,7 +697,7 @@ const CSS = `
 // ─────────────────────────────────────────────
 //  COMPONENTS
 // ─────────────────────────────────────────────
-
+// ── PRESENTATIONAL COMPONENTS ──────────────────────────
 function FilterBar({ filter, dispatch }) {
   return (
     <div className="filter-bar">
